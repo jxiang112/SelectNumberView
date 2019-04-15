@@ -215,7 +215,7 @@ public class SelectNumberView extends LinearLayout {
                     descrease();
                 }else if(vid == R.id.select_number_increase_btn){
                     increase();
-                }else if(vid == R.id.select_number_decrease_btn){
+                }else if(vid == R.id.select_number_value){
                     mEtValue.setCursorVisible(true);
                     cursorEnd();
                 }
