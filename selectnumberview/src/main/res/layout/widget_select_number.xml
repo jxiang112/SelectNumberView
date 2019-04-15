@@ -15,9 +15,9 @@
         />
     <View
         android:id="@+id/select_number_line_1"
-        android:layout_width="@dimen/line_height"
+        android:layout_width="0.5dp"
         android:layout_height="match_parent"
-        android:background="@color/line_color"
+        android:background="#EDEDED"
         />
     <EditText
         android:id="@+id/select_number_value"
@@ -36,9 +36,9 @@
         />
     <View
         android:id="@+id/select_number_line_2"
-        android:layout_width="@dimen/line_height"
+        android:layout_width="0.5dp"
         android:layout_height="match_parent"
-        android:background="@color/line_color"
+        android:background="#EDEDED"
         />
     <ImageView
         android:id="@+id/select_number_increase_btn"

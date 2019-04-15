@@ -160,7 +160,7 @@ public class SelectNumberView extends LinearLayout {
                 mLine2.setVisibility(View.GONE);
             }
             if(a.hasValue(R.styleable.SelectNumberView_split_line_width)){
-                int width = a.getDimensionPixelSize(R.styleable.SelectNumberView_split_line_width, getResources().getDimensionPixelSize(R.dimen.line_height));
+                int width = a.getDimensionPixelSize(R.styleable.SelectNumberView_split_line_width, DisplayUtil.dip2px(context, 0.5f));
                 ViewGroup.LayoutParams vlp = mLine1.getLayoutParams();
                 vlp.width = width;
                 mLine1.setLayoutParams(vlp);
@@ -170,7 +170,7 @@ public class SelectNumberView extends LinearLayout {
                 mLine2.setLayoutParams(vlp);
             }
             if(a.hasValue(R.styleable.SelectNumberView_split_line_color)){
-                textColor = a.getColor(R.styleable.SelectNumberView_split_line_color, getResources().getColor(R.color.line_color));
+                textColor = a.getColor(R.styleable.SelectNumberView_split_line_color, Color.parseColor("#EDEDED"));
                 mLine1.setBackgroundColor(textColor);
                 mLine2.setBackgroundColor(textColor);
             }
