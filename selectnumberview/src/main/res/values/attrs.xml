@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SelectNumberView">
+        <attr name="decrease_enable_img" format="reference"/>
+        <attr name="decrease_disable_img" format="reference"/>
+        <attr name="increase_enable_img" format="reference"/>
+        <attr name="increase_disable_img" format="reference"/>
+        <attr name="min_value" format="integer"/>
+        <attr name="max_value" format="integer"/>
+        <attr name="value" format="integer"/>
+        <attr name="value_step" format="integer"/>
+        <attr name="value_text_size" format="dimension"/>
+        <attr name="value_text_color" format="dimension"/>
+        <attr name="split_line_show">
+            <enum name="visible" value="0"/>
+            <enum name="hidden" value="1"/>
+        </attr>
+        <attr name="split_line_width" format="dimension"/>
+        <attr name="split_line_color" format="color"/>
+    </declare-styleable>
+</resources>
